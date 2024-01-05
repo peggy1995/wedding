@@ -1351,9 +1351,6 @@ p.uppercase, .p.uppercase,
   .title{
     margin-bottom: 350px;
   }
-  .about-title{
-    margin-bottom: 350px;
-  }
 
 }
 
@@ -1534,6 +1531,19 @@ p.uppercase, .p.uppercase,
 .gallery {
   margin-top: 42vh;
   padding-bottom: 60vh;
+}
+@media (max-width: 767.98px) {
+  [data-name="about"] .background {
+    background-size: contain;
+  }
+  .gallery {
+    margin-top: 10vh;
+    padding-bottom: 10vh;
+  }
+  .gallery .row {
+    margin-left: -8vw;
+    margin-right: -8vw;
+  }
 }
 
 .popupTrigger,
