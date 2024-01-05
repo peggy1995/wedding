@@ -109,7 +109,7 @@ img.rounded {
 .slides {
   color: #fff;
   fill: #fff;
-  font-family: 'Bellefair', serif;
+  font-family: 'Bellefair', 'Noto Serif TC', serif;
   -webkit-hyphens: none;
       -ms-hyphens: none;
           hyphens: none;
