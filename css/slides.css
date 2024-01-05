@@ -174,13 +174,6 @@ h1.huge, .h1.huge {
   margin-bottom: 10px;
   font-weight: 100;
 }
-h1.date span {
-  display: inline-block;
-}
-h1.date, h1.date * {
-  line-height: 1;
-  margin-bottom: 0;
-}
 
 h1.small, .h1.small {
   font-size: 46px;
@@ -1540,7 +1533,7 @@ p.uppercase, .p.uppercase,
 
 .gallery {
   margin-top: 42vh;
-  padding-bottom: 50vh;
+  padding-bottom: 60vh;
 }
 
 .popupTrigger,
