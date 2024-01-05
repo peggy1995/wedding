@@ -21,8 +21,8 @@
 .simply-countdown > .simply-section {
   /* coutndown blocks */
   display: inline-block;
-  width: 60px;
-  height: 60px; 
+  width: 55px;
+  height: 55px; 
   position: relative;
   animation: pulse 1s ease infinite;
 }
@@ -69,6 +69,6 @@
   font-family: 'Bellefair', serif;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 9px;
   /* words */
 }
