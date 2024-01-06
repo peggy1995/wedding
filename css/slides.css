@@ -1345,11 +1345,20 @@ p.uppercase, .p.uppercase,
   -webkit-overflow-scrolling: touch;
 }
 
+@media (max-width: 768px) {
+  [data-name="home"] .title{
+    margin-top: -250px;
+  }
 
+}
 
 @media (max-width: 480px) {
   [data-name="home"] .title{
     margin-top: -260px;
+  }
+  .title-center{
+    margin-right: auto;
+    margin-left: 0;
   }
 
 }
@@ -1361,6 +1370,10 @@ p.uppercase, .p.uppercase,
 }
 
 /*default*/
+.fade-0 .content {
+	background: linear-gradient(rgba(0, 0, 0, 0.654), rgba(0, 0, 0, 0));
+}
+
 .fade-1 .content {
   background: rgba(0, 0, 0, 0.1);
 }
@@ -12384,6 +12397,17 @@ p.remind-43 {
   clear: both;
   display: table;
 }
+
+.js .animate-box {
+  opacity: 0;
+}
+.animate-box {
+	.js & {
+		opacity: 0;
+	}
+}
+
+
 .simply-countdown {
   /* The countdown */
   margin-top: 3rem;
