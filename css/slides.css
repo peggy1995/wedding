@@ -1349,6 +1349,9 @@ p.uppercase, .p.uppercase,
   [data-name="home"] .title{
     margin-top: -250px;
   }
+  .form-title{
+    margin-top: -150px;
+  }
 
 }
 
@@ -1360,7 +1363,9 @@ p.uppercase, .p.uppercase,
     margin-right: auto;
     margin-left: 0;
   }
-
+  .form-title{
+    margin-top: -180px;
+  }
 }
 
 
@@ -1371,7 +1376,7 @@ p.uppercase, .p.uppercase,
 
 /*default*/
 .fade-0 .content {
-	background: linear-gradient(rgba(0, 0, 0, 0.654), rgba(0, 0, 0, 0));
+	background: linear-gradient(rgba(0, 0, 0, 0.654), rgba(0, 0, 0, 0.046));
 }
 
 .fade-1 .content {
@@ -1558,6 +1563,13 @@ p.uppercase, .p.uppercase,
     margin-right: -8vw;
   }
 }
+
+@media (max-width: 767.98px) {
+  .about-text{
+    font-size: 14px;
+  }
+  }
+ 
 
 .popupTrigger,
 .dropdownTrigger,
