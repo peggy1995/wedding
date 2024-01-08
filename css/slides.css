@@ -1562,6 +1562,9 @@ p.uppercase, .p.uppercase,
   [data-name="about"] .background {
     background-size: contain;
   }
+  .about-text{
+    margin-top: 80px;
+  }
   .gallery {
     margin-top: 10vh;
     padding-bottom: 10vh;
@@ -1573,7 +1576,7 @@ p.uppercase, .p.uppercase,
 }
 
 @media (max-width: 767.98px) {
-  .about-text{
+  .time-text{
     font-size: 14px;
   }
   }
