@@ -169,7 +169,7 @@ h1.date, .h1.date {
 
 h1.huge, .h1.huge {
   font-size: 64px;
-  line-height: 1.218751;
+  line-height: 1.2;
   letter-spacing: -0.01em;
   margin-bottom: 10px;
   font-weight: 100;
@@ -1349,7 +1349,7 @@ p.uppercase, .p.uppercase,
   [data-name="home"] .title{
     margin-top: -250px;
   }
-  .form-title{
+  .form-title-box{
     margin-top: -150px;
   }
 
@@ -1363,8 +1363,11 @@ p.uppercase, .p.uppercase,
     margin-right: auto;
     margin-left: 0;
   }
+  .form-title-box{
+    margin-top: -100px;
+  }
   .form-title{
-    margin-top: -180px;
+    font-size: 18px;
   }
 }
 
